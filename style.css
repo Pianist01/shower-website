@@ -1,3 +1,76 @@
+
 body{
-    background-color: yellow;
+padding: 0;
+margin: 0;
 }
+
+
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+
+}
+.hero-banner{
+background-color: black;
+min-height: 100vh;
+padding: 0 20px;
+position: relative;
+}
+
+
+a.cta, button.cta{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: white;
+    display: inline-block;
+    outline: 10px solid rgba(0, 0, 0, .15);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, ,15) ;
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+a.cta.alt, button.cta.alt{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, ,15) ;  
+}
+
+.hero-banner h2{
+    font-size: 30px;
+    font-family: Instrument Serif;
+    font-weight: 400;
+    color: white;
+    margin: -100px 0 20px;
+}
+.hero-banner h3{
+    font-family: Instrument Serif;
+    font-style: italic;
+    font-weight: 400;
+    color: white;
+    margin: 0 0 25px;
+}
+.hero-banner h1{
+    margin: 0 -90px;
+}
+.img.img.alt{
+    background: url(Img/Bathroomtest18.png) no-repeat 0 0;
+    background-size: 100%;
+    width: 640px;
+    height: 640px;
+    position: absolute; top: 0; right: 25px; 
+}
+/* 
+
+<div class="hero-banner">
+        <div class="wrapper">
+            <h1><img src="Img/ShampooLogoCenter.png" alt="GoldenShower"></h1>
+            <h2>The Perfect Shower For Your Home</h2>
+            <h3>Made By People Who<br/>
+                Love To Shower</h3>
+                <a class="cta alt" href="#more-info">Learn More</a>
+                <img class="img alt" src="Img/Bathroomtest18.png" alt="Show">
+        </div>
+
+    </div>
+
+*/
