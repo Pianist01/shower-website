@@ -10,6 +10,13 @@ margin: 0;
     margin: 0 auto;
 
 }
+p{
+    font-family: Playfair Display;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 30px 0;
+
+}
 .hero-banner{
 background-color: black;
 min-height: 100vh;
@@ -59,17 +66,76 @@ a.cta.alt, button.cta.alt{
     height: 640px;
     position: absolute; top: 0; right: 25px; 
 }
-/* 
 
-<div class="hero-banner">
-        <div class="wrapper">
-            <h1><img src="Img/ShampooLogoCenter.png" alt="GoldenShower"></h1>
-            <h2>The Perfect Shower For Your Home</h2>
-            <h3>Made By People Who<br/>
-                Love To Shower</h3>
-                <a class="cta alt" href="#more-info">Learn More</a>
-                <img class="img alt" src="Img/Bathroomtest18.png" alt="Show">
-        </div>
+nav{
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, .2);
+    position: sticky;
+    top: 0;
+}
+nav a.navlogofinal{
+    display: block;
+    width: 300px;
+    height: 40px;
+    position: absolute; top: 50%; left: 30px;
+    margin-top: -20px;
+    background: url(Img/navlogofinal.png) no-repeat 0 0;
+    background-size: 100%;
+    overflow: hidden;
+    text-indent: -999px;
+}
+nav ul{
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+nav ul li{
+    padding: 0;
+    margin: 0;
+    display: block;
+    float: right;
+}
+nav ul li a{
+    display: block;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    padding: 35px 10px;
+    line-height: 30px;
+
+}
+
+.more-info{
+    background-color: black;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.more-info h2{
+    color: white;
+    margin: 50px 0 0;
+    font-size: 30px;
+
+}
+.more-info p{
+    color: white;
+    margin: 18px 0 35px;
+}
+
+/*  
+
+<div class="more-info" id="more-info">
+        <h2>It All Starts In The Ocean</h2>
+        <p>The Ocean Is A Place Of Beauty, Peace,<br/>
+            And Tranquility. But It's Also Dangerous,<br/>
+            So We Decided To Bring You The Ocean Without The Danger.
+        </p>
+        <button class="cta">I Want One!</button>
 
     </div>
 
