@@ -1,5 +1,6 @@
 
 body{
+    background-color: black;
 padding: 0;
 margin: 0;
 }
@@ -35,7 +36,14 @@ a.cta, button.cta{
     padding: 20px 30px;
     border-radius: 10px;
     text-decoration: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
+a.cta:active, button.cta:active{
+    opacity: .7;
+}
+
 a.cta.alt, button.cta.alt{
     background-color: white;
     color: black;
@@ -126,16 +134,87 @@ nav ul li a{
     color: white;
     margin: 18px 0 35px;
 }
+.more-info button.cta{
+    margin-bottom: 20px;
+}
 
+.main{
+    background: white;
+    width: 10px;
+    height: 10px;
+    padding-right: 30%;
+    margin: -10px 0 -5px 460px;
+
+}
+.Tub img{
+    width: 470px;
+    border-radius: 1%;
+    border: 3px solid white;
+    margin-top: 10px;
+    float: left;
+    margin: 0 20px 20px 0;
+
+
+}
+.story{
+    background-color: black;
+    padding: 20px;
+    margin: 0;
+}
+.story p{
+    color: white;
+}
+.story h3{
+    color: white;
+}
+
+.control{
+    display: block;
+    margin: 0 auto;
+}
+footer{
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    margin: 85px 0 45px;
+}
+.popup{
+    display: none;
+}
+
+.second{
+    background: white;
+    width: 10px;
+    height: 10px;
+    padding-right: 30%;
+    margin: 100px 0 -5px 460px;
+
+}
 /*  
 
-<div class="more-info" id="more-info">
-        <h2>It All Starts In The Ocean</h2>
-        <p>The Ocean Is A Place Of Beauty, Peace,<br/>
-            And Tranquility. But It's Also Dangerous,<br/>
-            So We Decided To Bring You The Ocean Without The Danger.
+ <div class="sep">
+
+    </div>
+    <div class="story" id="story">
+    <div class="Tub">
+        <img src="Img/Bathroomtest18.png" alt="tub">
+    </div>
+        <h3>Our Story</h3>
+        <p>We Began Our Journey From The Basement Of A Condo With No Shower.
+            No Money To Pay Someone To Install A Shower For Us, We Decided To 
+            Learn And Do It Ourselves. 
         </p>
-        <button class="cta">I Want One!</button>
+        <p>So Began Our Journey Learning How To Create A Shower With Our Hands,
+            But, In The End, It Kickstarted Our Passion For Helping Others Get Their
+            Dream Shower.
+        </p>
+        <p>Now With 100 Years Of Experience Under Our Belt, We Continue To Push
+            The Limits Of Shower Innovation. With Our Latest Design Being Out Most
+            User Friendly Shower Yet! The Future Looks Bright!
+        </p>
+
+    </div>
+    <div class="sep">
 
     </div>
 
